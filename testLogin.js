@@ -11,7 +11,7 @@ async function testLogin() {
     await click('Username')
     await write('student');
     await click('Password')
-    await write('Password123');
+    await write('Password1234');
     await click('submit');
 
     // Add assertions or further testing as needed
